@@ -1,0 +1,179 @@
+html {
+    background-image: url(../img/todo-background.webp);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    text-transform: capitalize;
+}
+
+h1 span {
+    font-style: italic;
+    font-size: 80px;
+    color: rgba(15, 44, 160, 182);
+}
+
+.buttons-area {
+    height: 320px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.614);
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.buttons-area h3 {
+    color: rgb(183, 183, 192);
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.form {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.importance {
+    padding: 4px 0;
+    font-weight: bold;
+    color: rgba(12, 8, 8, 0.577);
+    background-color: rgba(252, 254, 254, 0.937);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-btn {
+    position: absolute;
+    padding: 5px 4px;
+    font-weight: bold;
+    color: rgba(39, 199, 39, 0.577);
+    background-color: rgba(252, 254, 254, 0.937);
+    border-radius: 5px;
+    border: 0;
+    margin-top: 2px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.8s;
+
+}
+
+.add-btn:hover {
+    color: rgba(252, 254, 254, 0.937);
+    background-color: rgba(39, 199, 39, 0.577);
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.todo-list {
+    height: 400px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.614);
+    margin: 30px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.removeBtn {
+    position: absolute;
+    padding: 3px 8px;
+    font-size: 15px;
+    border-radius: 30%;
+    border: 0;
+    background-color: white;
+    color: rgba(255, 0, 0, 0.685);
+    margin-left: 20px;
+    margin-top: 9px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.removeBtn:hover {
+    background-color: rgba(255, 0, 0, 0.685);
+    color: white;
+
+}
+
+.todo-stat {
+    height: 25px;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.614);
+    color: rgb(238, 135, 33);
+    margin: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+h4 {
+    display: inline;
+    padding-left: 20px;
+
+}
+
+.todo-stat span {
+    font-size: 20px;
+}
+
+#id_filters input[type="checkbox"] {
+    display: none;
+}
+
+#id_filters span {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 1px solid rgb(46, 46, 46);
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.8s;
+}
+
+#id_filters span.clicked {
+    background-color: rgba(56, 160, 35, 0.545);
+    color: rgb(229, 229, 229)
+}
+
+#id_filters span:hover {
+    background-color: rgba(68, 200, 54, 185);
+    color: white;
+}
+
+#id_sort input[type="checkbox"] {
+    display: none;
+}
+
+#id_sort span {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    border: 1px solid rgb(46, 46, 46);
+    background-color: rgba(167, 52, 220, 112);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.8s;
+}
+
+#id_sort span.clicked {
+    background-color: rgba(56, 160, 35, 0.545);
+    color: rgb(229, 229, 229)
+}
+
+#id_sort span:hover {
+    background-color: rgba(68, 200, 54, 185);
+    color: white;
+}
